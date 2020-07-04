@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>随笔</title>
-    <url>/2019/09/27/suibi/</url>
-    <content><![CDATA[<p>test</p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>使用Hexo生成博客</title>
-    <url>/2019/09/27/postName/</url>
-    <content><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。<br>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。<br>只需一条指令即可部署到 GitHub Pages, Heroku 或其他网站。</p>
-]]></content>
-  </entry>
-  <entry>
     <title>学会用Ctrl和Win这两个键，你就是电脑高手！</title>
     <url>/2019/09/28/news1/</url>
     <content><![CDATA[<p>键盘上有这样两个按键，一个是windows键，另一个是Ctrl，它们可以给你带来便捷的操作体验。今天小编就为大家总结一下！<br></p>
@@ -190,5 +175,20 @@
 <p>本工具下载地址：链接： <a href="https://pan.baidu.com/s/1dacx7EjLX_FA0vajzSKsOw" target="_blank" rel="noopener">https://pan.baidu.com/s/1dacx7EjLX_FA0vajzSKsOw</a> </p>
 <p>如果下载地址失效了，大家可以扫描下方二维码关注我的微信公众号然后直接私信给我就行。</p>
 <center><img src="/2019/09/29/news2/weixin.jpg"></center>]]></content>
+  </entry>
+  <entry>
+    <title>使用Hexo生成博客</title>
+    <url>/2019/09/27/postName/</url>
+    <content><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。<br>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。<br>只需一条指令即可部署到 GitHub Pages, Heroku 或其他网站。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>随笔</title>
+    <url>/2019/09/27/suibi/</url>
+    <content><![CDATA[<p>test</p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
   </entry>
 </search>
