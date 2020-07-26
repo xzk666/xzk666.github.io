@@ -177,6 +177,15 @@
 <center><img src="/2019/09/29/news2/weixin.jpg"></center>]]></content>
   </entry>
   <entry>
+    <title>随笔</title>
+    <url>/2019/09/27/suibi/</url>
+    <content><![CDATA[<p>test</p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hexo常用命令</title>
     <url>/2019/09/27/postName/</url>
     <content><![CDATA[<p>Hexo 是一个快速、简洁且高效的博客框架。<br>Hexo 支持 GitHub Flavored Markdown 的所有功能，甚至可以整合 Octopress 的大多数插件。<br>只需一条指令即可部署到 GitHub Pages, Heroku 或其他网站。</p>
@@ -187,14 +196,5 @@
 <p><code>hexo s --debug</code><br>以调试模式启动本地网站，在此模式下，对文件的更改无需停止网站只需刷新即可看到效果，调试非常方便</p>
 <p><code>hexo deploy == hexo d</code><br>hexo的一键部署功能，执行此命令即可将网站发布到配置中的仓库地址。</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>随笔</title>
-    <url>/2019/09/27/suibi/</url>
-    <content><![CDATA[<p>test</p>
-]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
   </entry>
 </search>
