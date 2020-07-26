@@ -177,13 +177,21 @@
 <center><img src="/2019/09/29/news2/weixin.jpg"></center>]]></content>
   </entry>
   <entry>
-    <title>随笔</title>
-    <url>/2019/09/27/suibi/</url>
-    <content><![CDATA[<p>test</p>
+    <title>用FTP获取联通光猫PT952G的管理员密码</title>
+    <url>/2020/07/26/news3/</url>
+    <content><![CDATA[<p>获取光猫的管理员密码后可以对光猫进行改桥接等操作，本文介绍如何通过采用FTP的方式直接获取到光猫的管理员密码。</p>
+<p>普通用户的帐号和密码都在光猫的背面，输入光猫网关192.168.1.1即可跳转到登录界面</p>
+<p><img src="https://s1.ax1x.com/2020/07/26/aprtpT.jpg" alt><a id="more"></a></p>
+<p>选择其他用户登录</p>
+<p><img src="https://s1.ax1x.com/2020/07/26/aprJhV.jpg" alt></p>
+<p>输入光猫背面的默认终端配置密码登录</p>
+<p>登录以后，显示的是普通用户的操作界面，然后打开CMD，在CMD里输入<br><code>ftp 192.168.1.1</code><br>提示输入账号密码，这个地方的帐号密码都是 e8ftp，登录了以后再次输入<br><code>cd /var/config</code><br><code>get lastgood.xml</code><br>将文件下载下来</p>
+<p><img src="https://s1.ax1x.com/2020/07/26/aprN1U.jpg" alt></p>
+<p>下载完毕以后，文件一般默认在C:\Users\Administrator这个文件夹下面<br>打开lastgood.xml<br>搜索文件中的SUSER_PASSWORD字段</p>
+<p><img src="https://s1.ax1x.com/2020/07/26/aprUcF.jpg" alt></p>
+<p>value里面即为密码。</p>
+<p>之后就可以自己用管理员账户登录光猫，修改路由模式为桥接模式了。</p>
 ]]></content>
-      <tags>
-        <tag>随笔</tag>
-      </tags>
   </entry>
   <entry>
     <title>Hexo常用命令</title>
@@ -196,5 +204,14 @@
 <p><code>hexo s --debug</code><br>以调试模式启动本地网站，在此模式下，对文件的更改无需停止网站只需刷新即可看到效果，调试非常方便</p>
 <p><code>hexo deploy == hexo d</code><br>hexo的一键部署功能，执行此命令即可将网站发布到配置中的仓库地址。</p>
 ]]></content>
+  </entry>
+  <entry>
+    <title>随笔</title>
+    <url>/2019/09/27/suibi/</url>
+    <content><![CDATA[<p>test</p>
+]]></content>
+      <tags>
+        <tag>随笔</tag>
+      </tags>
   </entry>
 </search>
